@@ -8,6 +8,7 @@ class Stripe::PaymentIntent
     Processing
     Canceled
     Succeeded
+    RequiresCapture
   end
 
   getter id : String
