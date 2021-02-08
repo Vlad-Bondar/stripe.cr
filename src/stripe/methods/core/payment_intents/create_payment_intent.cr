@@ -21,7 +21,7 @@ class Stripe::PaymentIntent
     
 
     case payment_method
-    when String
+    when Stringgit 
       payment_method
     when Token, PaymentMethods::Card, PaymentMethods::BankAccount
       payment_method = payment_method.not_nil!.id
